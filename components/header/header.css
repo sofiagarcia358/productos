@@ -1,0 +1,43 @@
+.contenedor{
+    max-width: 100%;
+    height: 100vh;
+
+    display: grid;
+    grid-template-rows: 12rem auto;
+    
+}
+.header{
+    grid-row: 1/2;
+
+    display: grid;
+    grid-template-columns: auto 30rem 8rem;
+    align-items: center;
+
+    background-color: rebeccapurple;
+    width: 100%;
+    height: 100%;
+    
+}
+.logo{
+    width: 10%;
+    height: 90%;
+    padding: 1.3rem 1rem;
+    
+}
+.header h1{
+    display: flex;
+    
+    color: white;
+}
+.circulo{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 3px 10px;
+
+    border: 1px solid black;
+    color: white;
+    border-radius: 2rem;
+    width: 3rem;
+    height: 3rem;
+}

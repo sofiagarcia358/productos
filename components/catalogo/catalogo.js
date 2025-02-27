@@ -7,9 +7,15 @@ function cargarProductos(){
     product.className = "cargaProducto";
 
     product.appendChild(producto());
-    product.appendChild(resaltarProducto(), eliminarProducto());
-    product.appendChild(dataProducto());
+    product.appendChild(eliminarProducto());
+    product.appendChild(resaltarProducto())
 
-    return producto;
+  
+
+
+    
+
+    return product;
+
 }
 export {cargarProductos};
