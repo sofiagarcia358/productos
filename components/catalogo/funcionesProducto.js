@@ -1,8 +1,8 @@
-function resaltarProducto(){
-    let div_resaltar = document.createElement('div');
-    div_resaltar.className = "resaltar-p";
-
-    return div_resaltar;
+function resaltarProducto(produ) {
+    // Agregar evento para resaltar con un color al hacer clic
+    produ.addEventListener('click', () => {
+        produ.classList.toggle("resaltado"); // Agrega o quita la clase resaltado
+    });
 }
 function eliminarProducto(){
     let div_eliminar = document.createElement('div');

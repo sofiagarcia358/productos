@@ -1,3 +1,3 @@
-let dataProducto = ["haburguesa", "pizza", "Tacos", "papas fritas", "shucos", "Chlupas", "banderillas", "alitas", "lasagna", "gabatini"]
+let dataProducto = ["haburguesa", "pizza", "Tacos", "papas fritas", "banderillas", "fetuccini", "lasagna", "cabatini", "Croisant", "Tiramisú" ]
 
     export {dataProducto};
